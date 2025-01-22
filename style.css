@@ -1,4 +1,4 @@
-nav{
+#nav{
     display: inline-flex;
     background-color: rgba(40, 44, 28, 0.72);
     border-bottom-left-radius: 10px;
@@ -8,13 +8,91 @@ nav{
 
 }
 a{
-    all: unset;
+    all:unset;
     font-size: min(4vh,4vw);
-    padding: min(1vh,2vw) 30px ;
-    color: white;
-}
-a {
+    color: #ffffff;
     transition: transform .3s ease-out;
+    justify-items: center;
+    width: 15vh;
+    height: 15vh;
+    text-align: center;
+    background-color: #113a0c;
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    justify-content: center;
+    align-items: center;
+}
+
+.b0{
+    transform: rotate(-45deg);
+}
+.b1{
+    transform: rotate(45deg);
+}
+.b2{
+    transform: rotate(-45deg);
+}
+.b3{
+    transform: rotate(45deg);
+}
+.a0{
+    border-bottom-right-radius: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.retour{
+    all:unset;
+    font-size: min(4vh,4vw);
+    color: #ffffff;
+    transition: transform .3s ease-out;
+    justify-items: center;
+    width: 7.5vh;
+    height: 7.5vh;
+    text-align: center;
+    background-color: #113a0c;
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 3vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.a1{
+    border-bottom-left-radius: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.a2{
+
+    border-top-left-radius: 100vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.a3{
+
+    border-top-right-radius: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+a:hover{
+    scale: 120%;
+    transition: 0.3s;
+}
+@keyframes blink-animation {
+    0% {
+        scale: 100%;
+    }
+    100% {
+        scale: 120%;
+    }
+
 }
 .border-left{
     border-bottom-left-radius: 10px;
@@ -24,10 +102,7 @@ a {
     border-bottom-right-radius: 10px;
 
 }
-a:hover{
- background-color: rgba(0, 0, 0, 0.24);
-    cursor: pointer;
-}
+
 video{
 
     overflow: hidden;
@@ -55,32 +130,23 @@ body{
     overflow-x:hidden;
     font-size: min(2vh,4vw);
 }
-.fougere{
-    position:absolute;
-    bottom: 0;
-    left:1em;
-    z-index: -50;
 
-
-margin: 0;
-}
-
-.fougere2{
-    z-index: -50;
-    position: absolute;
-    right:1em;
-    bottom: 0;
-    margin: 0;
+.down-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .down{
-
-    width: 100%;
+    width: 100vh;
     height: 10vh;
     position: absolute;
-    left: 0;
+
     bottom: 0;
     transition: transform .3s ease-out;
     color: rgb(34, 34, 34);
+
+    align-items: center;
 }
 .down:hover{
     transform: translate(0, 5px);
@@ -129,12 +195,16 @@ audio{
 }
 .iframe-container{
     text-align: center;
+    background-color: white;
 }
 iframe{
 
     text-align: center;
-    width: 100%;
+    width: 98%;
     align-content: center;
-    padding: 7% 0;
-    height: 85vh;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }

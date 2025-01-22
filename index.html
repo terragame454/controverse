@@ -7,16 +7,17 @@
 </head>
 <header>
     <nav>
-        <a style="background-color: black"  class="border-left" href="index.html">Home</a>
-        <a href="cartographie.html">Cartographie</a>
-        <a href="podcast.html">Podcast</a>
-        <a class="border-right" href="index.html">Biblio</a>
+        <a class="a0"  href="index.html"><div class="b0">Home</div></a>
+        <a class="a1" href="cartographie.html"><div class="b1">Carto</div></a>
+        <a class="a2" href="podcast.html"><div class="b2">Podcast</div></a>
+        <a class="a3" href="index.html"><div class="b3">Biblio</div></a>
     </nav>
 </header>
 <body>
 <video autoplay loop muted>
 <source src="video.mp4" type="video/mp4" />
 </video>
+<div class="down-container">
 <svg class="down" xmlns="http://www.w3.org/2000/svg"   baseProfile="full" onclick='
 document.getElementById("svg").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 '>
@@ -30,6 +31,7 @@ document.getElementById("svg").scrollIntoView({ behavior: "smooth", block: "star
                style="transform:translate(50%)" />
     </g>
 </svg>
+</div>
 <div style="height: 100vh;"></div>
 <div id="svg">
 
