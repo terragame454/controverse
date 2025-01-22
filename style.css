@@ -1,0 +1,140 @@
+nav{
+    display: inline-flex;
+    background-color: rgba(40, 44, 28, 0.72);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    position: absolute;
+    top: 0;
+
+}
+a{
+    all: unset;
+    font-size: min(4vh,4vw);
+    padding: min(1vh,2vw) 30px ;
+    color: white;
+}
+a {
+    transition: transform .3s ease-out;
+}
+.border-left{
+    border-bottom-left-radius: 10px;
+
+}
+.border-right{
+    border-bottom-right-radius: 10px;
+
+}
+a:hover{
+ background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+video{
+
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    background-color: black;
+}
+iframe :hover {
+
+}
+
+body{
+    margin: 0;
+    font-family: "Free Avant Garde";
+
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x:hidden;
+    font-size: min(2vh,4vw);
+}
+.fougere{
+    position:absolute;
+    bottom: 0;
+    left:1em;
+    z-index: -50;
+
+
+margin: 0;
+}
+
+.fougere2{
+    z-index: -50;
+    position: absolute;
+    right:1em;
+    bottom: 0;
+    margin: 0;
+}
+.down{
+
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: transform .3s ease-out;
+    color: rgb(34, 34, 34);
+}
+.down:hover{
+    transform: translate(0, 5px);
+}
+@keyframes blink-animation {
+    0% {
+        translate: 0 0px;
+    }
+    100% {
+        translate: 0 5px;
+    }
+
+}
+
+
+g{
+    border-radius: 3px;
+}
+header{
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+}
+p{
+    justify-content: center;
+    text-justify: auto;
+    padding: 0 15%;
+}
+footer{
+    background-color: bisque;
+    margin: 0;
+    padding: 1% 10%;
+
+}
+
+audio{
+
+    width: 20em;
+}
+.iframe-container{
+    text-align: center;
+}
+iframe{
+
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    padding: 7% 0;
+    height: 85vh;
+}
