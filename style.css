@@ -138,7 +138,6 @@ body{
     align-items: center;
 }
 .down{
-    width: 100vh;
     height: 10vh;
     position: absolute;
 
