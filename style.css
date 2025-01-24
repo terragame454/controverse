@@ -10,14 +10,14 @@
 }
 a{
     all:unset;
-    font-size: min(4vh,4vw);
+    font-size: 200%;
     color: white;
     transition: transform .3s ease-out;
     justify-items: center;
     width: 15vh;
     height: 15vh;
     text-align: center;
-    background-color: rgba(17, 58, 12, 0.11);
+    /*background-color: rgba(17, 58, 12, 0.11);*/
 
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: center;
@@ -28,23 +28,27 @@ a{
 
 .b0{
     transform: rotate(-45deg);
+
 }
 .b1{
     transform: rotate(45deg);
+
 }
 .b2{
     transform: rotate(-45deg);
+
 }
 .b3{
     transform: rotate(45deg);
+
 }
 .a0{
     border-bottom-right-radius: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    border-bottom: antiquewhite 5px solid;
-    border-right: antiquewhite 5px solid;;
+    /*border-bottom: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;*/
 }
 .retour{
     all:unset;
@@ -70,8 +74,8 @@ a{
     position: absolute;
     top: 0;
     right: 0;
-    border-bottom: antiquewhite 5px solid;
-    border-left: antiquewhite 5px solid;
+    /*border-bottom: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;*/
 }
 .a2{
 
@@ -79,8 +83,8 @@ a{
     position: absolute;
     bottom: 0;
     right: 0;
-    border-top: antiquewhite 5px solid;
-    border-left: antiquewhite 5px solid;
+    /*border-top: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;*/
 }
 .a3{
 
@@ -88,8 +92,8 @@ a{
     position: absolute;
     bottom: 0;
     left: 0;
-    border-top: antiquewhite 5px solid;
-    border-right: antiquewhite 5px solid;
+    /*border-top: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;*/
 }
 a:hover{
     scale: 120%;
