@@ -24,6 +24,8 @@ a{
     align-items: center;
     scale: 100%;
     cursor: pointer;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre noire */
+
 }
 
 .b0{
@@ -47,8 +49,9 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    /*border-bottom: antiquewhite 5px solid;
-    border-right: antiquewhite 5px solid;*/
+    border-bottom: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .retour{
     all:unset;
@@ -74,8 +77,9 @@ a{
     position: absolute;
     top: 0;
     right: 0;
-    /*border-bottom: antiquewhite 5px solid;
-    border-left: antiquewhite 5px solid;*/
+    border-bottom: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .a2{
 
@@ -83,8 +87,9 @@ a{
     position: absolute;
     bottom: 0;
     right: 0;
-    /*border-top: antiquewhite 5px solid;
-    border-left: antiquewhite 5px solid;*/
+    border-top: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.7);
 }
 .a3{
 
@@ -92,8 +97,9 @@ a{
     position: absolute;
     bottom: 0;
     left: 0;
-    /*border-top: antiquewhite 5px solid;
-    border-right: antiquewhite 5px solid;*/
+    border-top: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;
+    box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.7);
 }
 a:hover{
     scale: 120%;
