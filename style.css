@@ -98,6 +98,7 @@ a{
 }
 a:hover{
     scale: 120%;
+
     transition: 0.3s;
 }
 
@@ -109,14 +110,71 @@ a:hover{
     border-bottom-right-radius: 10px;
 
 }
-
+.abs{
+    position: absolute;
+}
+.img-size{
+    width: 20%;
+    height: 20%;
+}
+.left{
+    left: 0;
+}
+.right{
+    scale: -1 1;
+    right: 0;
+}
+.t-1{
+    top: 10%;
+}
+.t-3{
+    top: 30%;
+}
+.t-5{
+    top: 50%;
+}
+.t-7{
+    top: 70%;
+}
+.t-9{
+    top: 90%;
+}
+.t-10{
+    top: 110%;
+}
+.t-30{
+    top: 130%;
+}
+.t-50{
+    top: 150%;
+}
+.t-70{
+    top: 170%;
+}
+.t-90{
+    top: 190%;
+}
+.t-110{
+    top: 210%;
+}
+.t-130{
+    top: 230%;
+}
+.t-150{
+    top: 250%;
+}
+.t-170{
+    top: 270%;
+}
+.t-190{
+    top: 290%;
+}
+.t-210{
+    top: 310%;
+}
 video{
-
-
     overflow: clip;
     height: 100vh; /* Laisse la hauteur s'ajuster */
-
-
 }
 .video-container{
     overflow: hidden;
