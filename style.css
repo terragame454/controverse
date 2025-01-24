@@ -128,7 +128,12 @@ li{
     list-style-type: none;
     text-align: left;
 }
-
+audio {
+    border:20px solid sandybrown;
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+}
 
 
 body{
@@ -200,10 +205,6 @@ footer{
 
 }
 
-audio{
-
-    width: 20em;
-}
 .iframe-container{
     text-align: center;
     background-color: white;
