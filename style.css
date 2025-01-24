@@ -1,3 +1,4 @@
+
 #nav{
     display: inline-flex;
     background-color: rgba(40, 44, 28, 0.72);
@@ -10,17 +11,19 @@
 a{
     all:unset;
     font-size: min(4vh,4vw);
-    color: #ffffff;
+    color: white;
     transition: transform .3s ease-out;
     justify-items: center;
     width: 15vh;
     height: 15vh;
     text-align: center;
-    background-color: #113a0c;
+    background-color: rgba(17, 58, 12, 0.11);
+
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: center;
     align-items: center;
     scale: 100%;
+    cursor: pointer;
 }
 
 .b0{
@@ -40,6 +43,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
+    border-bottom: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;;
 }
 .retour{
     all:unset;
@@ -51,20 +56,22 @@ a{
     height: 7.5vh;
     text-align: center;
     background-color: #113a0c;
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    display: flex;
     justify-content: center;
     align-items: center;
     border-bottom-right-radius: 3vh;
     position: absolute;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 .a1{
     border-bottom-left-radius: 100vh;
     position: absolute;
     top: 0;
     right: 0;
-
+    border-bottom: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;
 }
 .a2{
 
@@ -72,7 +79,8 @@ a{
     position: absolute;
     bottom: 0;
     right: 0;
-
+    border-top: antiquewhite 5px solid;
+    border-left: antiquewhite 5px solid;
 }
 .a3{
 
@@ -80,7 +88,8 @@ a{
     position: absolute;
     bottom: 0;
     left: 0;
-
+    border-top: antiquewhite 5px solid;
+    border-right: antiquewhite 5px solid;
 }
 a:hover{
     scale: 120%;
@@ -138,7 +147,7 @@ audio {
 
 body{
     margin: 0;
-    font-family: "Free Avant Garde";
+    font-family: "Free Avant Garde","AlArabiya";
     transition: background-position 1s ease-out;
     background-color: antiquewhite;
     scroll-behavior: smooth;
@@ -154,6 +163,7 @@ body{
     align-items: center;
 }
 .down{
+    cursor: pointer;
     height: 10vh;
     position: absolute;
 
