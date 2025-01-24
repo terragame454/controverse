@@ -113,7 +113,7 @@ a:hover{
 video{
 
 
-
+    overflow: clip;
     height: 100vh; /* Laisse la hauteur s'ajuster */
 
 
