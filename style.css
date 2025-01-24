@@ -1,13 +1,5 @@
 
-#nav{
-    display: inline-flex;
-    background-color: rgba(40, 44, 28, 0.72);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius:10px;
-    position: absolute;
-    top: 0;
 
-}
 a{
     all:unset;
     font-size: 200%;
@@ -62,7 +54,7 @@ a{
     width: 7.5vh;
     height: 7.5vh;
     text-align: center;
-    background-color: #113a0c;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +63,9 @@ a{
     top: 0;
     left: 0;
     cursor: pointer;
+
+    background-color: #1d3e11;
+
 }
 .a1{
     border-bottom-left-radius: 100vh;
@@ -105,15 +100,7 @@ a:hover{
     scale: 120%;
     transition: 0.3s;
 }
-@keyframes blink-animation {
-    0% {
-        scale: 100%;
-    }
-    100% {
-        scale: 120%;
-    }
 
-}
 .border-left{
     border-bottom-left-radius: 10px;
 
@@ -125,16 +112,21 @@ a:hover{
 
 video{
 
+
+
+    height: 100vh; /* Laisse la hauteur s'ajuster */
+
+
+}
+.video-container{
     overflow: hidden;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -10;
     background-color: black;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
 }
 iframe :hover {
 
