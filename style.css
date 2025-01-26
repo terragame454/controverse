@@ -111,7 +111,7 @@ a:hover{
 
 }
 .abs{
-    position: absolute;
+    position: relative;
 }
 .img-size{
     width: 18vw;
@@ -121,6 +121,11 @@ a:hover{
 }
 .right{
     right: 0;
+}
+.text-container{
+    width: 100vw;
+    display: flex;
+    text-align: center;
 }
 .t-1{
     top: 10%;
@@ -264,7 +269,10 @@ h1{
 p{
     justify-content: center;
     text-justify: auto;
-    padding: 0 15%;
+    /*padding: 0 15%;*/
+}
+.grid {
+
 }
 footer{
     background-color: bisque;
