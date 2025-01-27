@@ -1,5 +1,9 @@
 
+a:hover{
+    scale: 120%;
 
+    transition: 0.3s;
+}
 a{
     all:unset;
     font-size: 200%;
@@ -44,6 +48,31 @@ a{
     border-bottom: antiquewhite 5px solid;
     border-right: antiquewhite 5px solid;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.a0:hover{
+    scale: 120%;
+    transition: 0.3s;
+    top: 1vh;
+    left: 1vw;
+}
+.a1:hover{
+    scale: 120%;
+    transition: 0.3s;
+    top: 1vh;
+    right: 1vw;
+}
+.a2:hover{
+    scale: 120%;
+    transition: 0.3s;
+    bottom: 1vh;
+    right: 1vw;
+
+}
+.a3:hover{
+    scale: 120%;
+    transition: 0.3s;
+    bottom: 3vh;
+    left: 3vw;
 }
 .retour{
     all:unset;
@@ -96,11 +125,7 @@ a{
     border-right: antiquewhite 5px solid;
     box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.7);
 }
-a:hover{
-    scale: 120%;
 
-    transition: 0.3s;
-}
 
 .border-left{
     border-bottom-left-radius: 10px;
@@ -125,7 +150,7 @@ a:hover{
 .text-container{
     width: 100vw;
     display: flex;
-    text-align: left;
+    text-align: justify;
 }
 .t-1{
     top: 10%;
