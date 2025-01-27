@@ -1,8 +1,8 @@
 
 a:hover{
-    scale: 120%;
+    /*scale: 120%;
 
-    transition: 0.3s;
+    transition: 0.3s;*/
 }
 a{
     all:unset;
@@ -41,6 +41,7 @@ a{
 
 }
 .a0{
+    transition: 0.3s;
     border-bottom-right-radius: 100vh;
     position: absolute;
     top: 0;
@@ -50,31 +51,32 @@ a{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .a0:hover{
-    scale: 120%;
+    /*scale: 120%;*/
+    height: 18vh;
+    width: 18vh;
     transition: 0.3s;
-    top: 1vh;
-    left: 1vw;
 }
 .a1:hover{
-    scale: 120%;
+
     transition: 0.3s;
-    top: 1vh;
-    right: 1vw;
+    height: 18vh;
+    width: 18vh;
 }
 .a2:hover{
-    scale: 120%;
+
     transition: 0.3s;
-    bottom: 1vh;
-    right: 1vw;
+    height: 18vh;
+    width: 18vh;
 
 }
 .a3:hover{
-    scale: 120%;
+
     transition: 0.3s;
-    bottom: 3vh;
-    left: 3vw;
+    height: 18vh;
+    width: 18vh;
 }
 .retour{
+    transition: 0.3s;
     all:unset;
     font-size: min(4vh,4vw);
     color: #ffffff;
@@ -92,11 +94,15 @@ a{
     top: 0;
     left: 0;
     cursor: pointer;
-
     background-color: #1d3e11;
-
+}
+.retour:hover{
+    transition: 0.3s;
+    width: 8vh;
+    height: 8vh;
 }
 .a1{
+    transition: 0.3s;
     border-bottom-left-radius: 100vh;
     position: absolute;
     top: 0;
@@ -106,7 +112,7 @@ a{
     box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .a2{
-
+    transition: 0.3s;
     border-top-left-radius: 100vh;
     position: absolute;
     bottom: 0;
@@ -116,7 +122,7 @@ a{
     box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.7);
 }
 .a3{
-
+    transition: 0.3s;
     border-top-right-radius: 100vh;
     position: absolute;
     bottom: 0;
