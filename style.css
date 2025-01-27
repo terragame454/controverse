@@ -267,17 +267,15 @@ footer{
 
 .iframe-container{
     text-align: center;
-    background-color: white;
+
 }
 iframe{
-
+    border-radius: 2vh;
     text-align: center;
-    width: 100% ;
 
     align-content: center;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 7.5vh;
+    width: 95vw;
+    height: 80vh;
+    margin-top: 10vh;
     z-index: -1;
 }
