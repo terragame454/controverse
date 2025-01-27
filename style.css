@@ -272,7 +272,7 @@ footer{
 iframe{
     border-radius: 2vh;
     text-align: center;
-
+    border: #1d3e11 5px solid;
     align-content: center;
     width: 95vw;
     height: 80vh;
