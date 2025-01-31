@@ -194,7 +194,12 @@ audio {
     margin: auto;
     width: 50%;
 }
-
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
 
 body{
     margin: 0;
