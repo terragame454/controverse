@@ -5,6 +5,9 @@ a:hover{
     transition: 0.3s;*/
 }
 a{
+    text-align: left;
+}
+.a{
     all:unset;
     font-size: 200%;
     color: white;
@@ -183,6 +186,7 @@ span{
 li{
     list-style-type: none;
     text-align: left;
+    margin-top: 2%;
 }
 audio {
     border:20px solid sandybrown;
