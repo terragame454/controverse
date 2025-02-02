@@ -97,7 +97,7 @@ a{
     top: 0;
     left: 0;
     cursor: pointer;
-    background-color: #1d3e11;
+    background-color: darkolivegreen;
 }
 .retour:hover{
     transition: 0.3s;
@@ -188,11 +188,15 @@ li{
     text-align: left;
     margin-top: 2%;
 }
+.big{
+    font-size: 4em;
+}
 audio {
-    border:20px solid sandybrown;
+    border:5px solid darkolivegreen;
     border-radius: 50px;
     margin: auto;
     width: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 h2{
     text-align: center;
@@ -263,6 +267,25 @@ p{
     justify-content: center;
     text-justify: auto;
     /*padding: 0 15%;*/
+    border: darkolivegreen solid 5px;
+    border-radius: 15px;
+    padding: 2%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn{
+
+    margin: auto;
+    margin-top: 2%;
+    background-color: darkolivegreen;
+    border-radius: 15px;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn:hover{
+
+    background: #46680e;
 }
 .grid {
 
@@ -281,11 +304,12 @@ footer{
 iframe{
     border-radius: 2vh;
     text-align: center;
-    border: #1d3e11 5px solid;
+    border: darkolivegreen 5px solid;
     align-content: center;
     width: 95vw;
     height: 80vh;
     margin-top: 10vh;
     margin-bottom: 10vh;
     z-index: -1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
