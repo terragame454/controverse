@@ -111,6 +111,7 @@ h1{
     transform: rotate(-30deg) translateX(3vw) translateY(10vh);
 }
 .right{
+    transition: 1s;
     right: 0;
 }
 .text-container{
