@@ -96,9 +96,19 @@ h1{
 }
 .img-size{
     width: 18vw;
+    
+}
+.left:hover{
+    transition: 1s;
+    transform: rotate(30deg) translateX(-3vw) translateY(10vh);
 }
 .left{
+    transition: 1s;
     left: 0;
+}
+.right:hover{
+    transition: 1s;
+    transform: rotate(-30deg) translateX(3vw) translateY(10vh);
 }
 .right{
     right: 0;
