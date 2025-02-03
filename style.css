@@ -151,7 +151,9 @@ h2{
 h3{
     text-align: center;
 }
-
+header{
+    font-size: 3vh;
+}
 body{
     margin: 0;
     font-family: "Free Avant Garde", sans-serif;
@@ -160,7 +162,7 @@ body{
     scroll-behavior: smooth;
     width: 100vw;
     overflow-x:hidden;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 @media only screen and (hover: none) and (pointer: coarse) {
     body{
@@ -233,6 +235,7 @@ p{
     border-radius: 15px;
     padding: 2%;
     color: white;
+    text-align: center;
     text-decoration: none;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
