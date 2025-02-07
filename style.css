@@ -1,6 +1,60 @@
-
-
+*{
+    --text-color : #434343;
+    --background-color:transparent;
+}
+h1{
+    text-align: center;
+    font-size: 8vw;
+}
+.fancy {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background-image:
+                url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2345832F' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%23719A50'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%239DB171'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%2345832F'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-size: 30% auto;
+        background-position: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+h2{
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background-image:
+                url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='green' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='olive'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='darkgreen'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-size: 30% auto;
+        background-position: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+h3{
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background-image:
+                url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='green' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='olive'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='darkgreen'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-size: 30% auto;
+        background-position: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
 .a{
+
     all:unset;
 
     color: white;
@@ -9,12 +63,21 @@
     scale: 100%;
     text-align: center;
     /*background-color: rgba(17, 58, 12, 0.11);*/
-    padding: 0 2%;
+
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre noire */
+    font-size: 5vh;
+    text-shadow: 2px 2px  rgba(0, 0, 0, 0.7); /* Ombre noire */
     z-index: 100;
+
+    margin-top: 10%;
+
+    backdrop-filter: blur(2px);
+}
+
+.b{
+ padding: 2vw;
 }
 a:hover{
 
@@ -22,14 +85,12 @@ a:hover{
     scale: 110%;
 }
 nav {
-    position: absolute;
-    top: 0;
+position: absolute;
     display: flex;
-    width: 80%;
+    flex-grow: 10;
+    padding: 0;
 }
-h1{
-    text-align: center;
-}
+
 
 @media only screen and (hover: none) and (pointer: coarse){
 
@@ -61,21 +122,24 @@ h1{
     justify-content: center;
     align-items: center;
     border-bottom-right-radius: 3vh;
-    position: absolute;
-    top: 0;
-    left: 0;
     cursor: pointer;
     background-color: darkolivegreen;
+
 }
 .retour:hover{
     transition: 0.3s;
     width: 8vh;
     height: 8vh;
 }
+.a0{
+
+
+}
 .a1{
 
 }
 .a2{
+
 
 }
 .a3{
@@ -124,6 +188,14 @@ video{
     overflow: clip;
     height: 100vh; /* Laisse la hauteur s'ajuster */
 }
+.transition{
+    width: 100vw;
+    height: 1vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:  linear-gradient(rgba(230, 100, 101, 0), wheat);;
+}
 .video-container{
     overflow: hidden;
     background-color: black;
@@ -132,6 +204,7 @@ video{
     align-items: center; /* Centre verticalement */
     width: 100vw;
     height: 100vh;
+
     z-index: -100;
 }
 iframe :hover {
@@ -167,9 +240,11 @@ header{
 }
 body{
     margin: 0;
-    font-family: "Free Avant Garde", sans-serif;
+    /*font-family: "Free Avant Garde", sans-serif;*/
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    font-weight: 500;
     transition: background-position 1s ease-out;
-    background-color: antiquewhite;
+    background-color: wheat;
     scroll-behavior: smooth;
     width: 100vw;
     overflow-x:hidden;
@@ -227,6 +302,7 @@ h1{
     justify-content: center;
     display: flex;
     align-items: center;
+
 }
 p{
     justify-content: center;
@@ -237,6 +313,7 @@ p{
     padding: 2%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin: auto;
+    font-size: 120%;
 }
 .btn{
 
@@ -258,7 +335,7 @@ p{
 
 }
 footer{
-    background-color: bisque;
+    background-color: rgba(2, 2, 2, 0.47);
     margin: 0;
     padding: 1% 10%;
 
