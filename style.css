@@ -32,7 +32,7 @@ h1{
 }
 h2{
     padding-top: 2%;
-    font-size: 400%;
+    font-size: 4vw;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
@@ -52,7 +52,7 @@ h3{
 
     padding-top: 1.5%;
     padding-bottom: 1%;
-    font-size: 300%;
+    font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
@@ -329,8 +329,7 @@ p{
     /*padding: 0 15%;*/
 
     margin: auto;
-    font-size: 120%;
-    font-size: 1.5vw;
+    font-size: max(1.5vw,1.5vh);
 }
 .btn{
 
