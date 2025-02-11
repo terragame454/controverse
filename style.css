@@ -3,6 +3,7 @@
     --background-color:transparent;
 }
 h1{
+    padding-top: 2%;
     text-align: center;
     font-size: 7vw;
 }
@@ -22,6 +23,7 @@ h1{
     }
 }
 h2{
+    padding-top: 2%;
     font-size: 4vw;
     text-transform: uppercase;
     text-align: center;
@@ -38,6 +40,7 @@ h2{
     }
 }
 h3{
+    padding-top: 2%;
     font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
@@ -52,6 +55,9 @@ h3{
         -webkit-background-clip: text;
         background-clip: text;
     }
+}
+.note {
+
 }
 .a{
 
