@@ -16,11 +16,32 @@
 <body>
 
 <div class="video-container">
-    <video autoplay loop muted>
+    <button id="playButton" class="play-button">play_circle</button>
+    <video id="myVideo">
         <source src="media/rush.mp4" type="video/mp4" />
     </video>
     <div class="transition"></div>
 </div>
+<script>
+    const video = document.getElementById("myVideo");
+    const playButton = document.getElementById("playButton");
+    playButton.addEventListener("click", function() {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'
+        }
+    });
+    video.addEventListener("click", function() {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'
+        } else {
+            video.pause();
+
+            playButton.style.display = 'block'
+        }
+    });
+</script>
 <div class="down-container">
 <svg class="down" xmlns="http://www.w3.org/2000/svg"   baseProfile="full" onclick='
 document.getElementById("svg").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });

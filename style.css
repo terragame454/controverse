@@ -14,6 +14,28 @@ h1{
     from {scale: 60%}
     to {scale: 100%}
 }
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.play-button {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color:white;
+    font-size: 10vh;
+}
 .fancy {
     text-transform: uppercase;
     text-align: center;
