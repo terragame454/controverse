@@ -36,6 +36,10 @@ h1{
     color:white;
     font-size: 10vh;
 }
+.play-button:hover{
+    font-size: 11vh;
+    transition: 0.1s;
+}
 .fancy {
     text-transform: uppercase;
     text-align: center;
