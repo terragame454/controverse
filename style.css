@@ -158,6 +158,10 @@ position: absolute;
         display: block;
         width: 80%;
     }
+    video{
+        overflow: clip;
+        width: 100vw; /* Laisse la hauteur s'ajuster */
+    }
 }
 .nav-retour{
     left: 0;
